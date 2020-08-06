@@ -48,7 +48,6 @@ body .header-menu__button {
 .advertising {
   margin-top: 327px;
   margin-left: 162px;
-  width: 40%;
 }
 .advertising-text__travel {
   font-family: nunito-extrabold-regular, sans-serif;
@@ -66,6 +65,13 @@ body .header-menu__button {
   color: white;
   border: 3px solid #3984f3;
   padding: 14px 59px;
+}
+.advertising__pic {
+  height: 998px;
+  width: 1060px;
+  position: absolute;
+  left: 840px;
+  top: 213px;
 }
 
 /*# sourceMappingURL=style.css.map */
