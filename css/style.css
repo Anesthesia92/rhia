@@ -45,4 +45,27 @@ body .header-menu__button {
   list-style-type: none;
 }
 
+.advertising {
+  margin-top: 327px;
+  margin-left: 162px;
+  width: 40%;
+}
+.advertising-text__travel {
+  font-family: nunito-extrabold-regular, sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+}
+.advertising-text__plan {
+  font-family: nunito-sans-regular, sans-serif;
+  font-size: 22px;
+  margin-top: 70px;
+}
+.advertising-text__button {
+  margin-top: 90px;
+  background-color: #3984f3;
+  color: white;
+  border: 3px solid #3984f3;
+  padding: 14px 59px;
+}
+
 /*# sourceMappingURL=style.css.map */
