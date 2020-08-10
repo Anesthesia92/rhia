@@ -1,6 +1,6 @@
 body {
   width: auto;
-  background: url(../images/Vector.png) no-repeat 104% -297%;
+  background: url(../images/Vector.png) no-repeat 104% 28%;
 }
 body .header {
   margin-top: 60px;
@@ -73,6 +73,24 @@ body .header-menu__button {
   position: absolute;
   left: 840px;
   top: 213px;
+}
+.advertising__places {
+  margin-top: 478px;
+  display: flex;
+}
+
+.advertising__photos {
+  display: flex;
+}
+.advertising__photos-1 {
+  padding-right: 40px;
+  padding-top: 54px;
+}
+.advertising__photos-2 {
+  padding-right: 40px;
+}
+.advertising__photos-3 {
+  padding-top: 54px;
 }
 
 /*# sourceMappingURL=style.css.map */
