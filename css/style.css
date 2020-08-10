@@ -93,4 +93,24 @@ body .header-menu__button {
   padding-top: 54px;
 }
 
+.advertising__description {
+  margin-left: 160px;
+  margin-top: 30px;
+}
+.advertising__description-1 {
+  font-size: 50px;
+  font-family: nunito-semibold, sans-serif;
+  margin-bottom: 39px;
+}
+.advertising__description-2 {
+  font-size: 22px;
+  font-family: nunito-sans-regular, sans-serif;
+  color: #81858e;
+  margin-top: 56px;
+}
+.advertising__description-feature {
+  width: 80px;
+  border: solid 3px #3984f3;
+}
+
 /*# sourceMappingURL=style.css.map */
