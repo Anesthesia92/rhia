@@ -66,6 +66,7 @@ body .header-menu__button {
   color: white;
   border: 3px solid #3984f3;
   padding: 14px 59px;
+  font-size: 20px;
 }
 .advertising__pic {
   height: 998px;
@@ -78,19 +79,36 @@ body .header-menu__button {
   margin-top: 478px;
   display: flex;
 }
+.advertising__arrows {
+  display: flex;
+  margin-left: 188px;
+  margin-top: 70px;
+}
+.advertising__arrows-right {
+  margin-left: 70px;
+}
 
 .advertising__photos {
   display: flex;
 }
 .advertising__photos-1 {
-  padding-right: 40px;
-  padding-top: 54px;
+  margin-right: 40px;
+  margin-top: 54px;
+  height: 500px;
+  width: 225px;
+  background: url(../images/Layer2.png) no-repeat;
 }
 .advertising__photos-2 {
-  padding-right: 40px;
+  margin-right: 40px;
+  height: 500px;
+  width: 372px;
+  background: url(../images/Layer3.png) no-repeat;
 }
 .advertising__photos-3 {
-  padding-top: 54px;
+  margin-top: 54px;
+  background: url(../images/Layer5.png) no-repeat;
+  height: 500px;
+  width: 372px;
 }
 
 .advertising__description {
@@ -111,6 +129,15 @@ body .header-menu__button {
 .advertising__description-feature {
   width: 80px;
   border: solid 3px #3984f3;
+}
+.advertising__description-button {
+  background-color: #3984f3;
+  color: white;
+  border: 3px solid #3984f3;
+  padding: 14px 67px;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
