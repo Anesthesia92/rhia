@@ -98,6 +98,27 @@ body .header-menu__button {
   width: 225px;
   background: url(../images/Layer2.png) no-repeat;
 }
+.advertising__photos-Maldives, .advertising__photos-Kathmandu, .advertising__photos-Indonesia {
+  font-size: 23px;
+  font-family: nunito-sans-regular, sans-serif;
+  color: white;
+  margin-top: 440px;
+}
+.advertising__photos-Kathmandu, .advertising__photos-Indonesia {
+  margin-left: 25px;
+  margin-top: 365px;
+}
+.advertising__photos-price {
+  width: 110px;
+  height: 43px;
+  margin-top: 28px;
+  background: #3984f3;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: nunito-semibold, sans-serif;
+  line-height: 43px;
+}
 .advertising__photos-2 {
   margin-right: 40px;
   height: 500px;
@@ -109,6 +130,16 @@ body .header-menu__button {
   background: url(../images/Layer5.png) no-repeat;
   height: 500px;
   width: 372px;
+}
+.advertising__photos-stars {
+  margin-top: 57px;
+}
+.advertising__photos-7days {
+  margin-top: -22px;
+  margin-left: 250px;
+  font-family: nunito-semibold, sans-serif;
+  font-size: 24px;
+  color: #81858e;
 }
 
 .advertising__description {
