@@ -29,13 +29,21 @@ body .header-menu {
   margin-right: 160px;
   display: flex;
 }
-body .header-menu__element a {
+body .header-menu-navigation {
+  display: flex;
+  list-style-type: none;
+}
+body .header-menu-navigation ul {
+  display: flex;
+  list-style-type: none;
+}
+body .header-menu-navigation ul a {
   color: #bab8b8;
   padding-left: 33px;
   padding-right: 33px;
   text-decoration: none;
 }
-body .header-menu__element a:hover {
+body .header-menu-navigation ul a:hover {
   color: #5ba4f5;
   font-weight: bold;
 }
@@ -50,14 +58,10 @@ body .header-menu__button {
   color: #3984f3;
   font-size: 20px;
   font-family: nunito-semibold, sans-serif;
+  cursor: pointer;
 }
 .menu-button:hover {
   font-weight: bold;
-}
-
-.navigation__elements, .navigation {
-  display: flex;
-  list-style-type: none;
 }
 
 .advertising {

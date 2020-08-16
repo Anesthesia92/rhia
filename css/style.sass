@@ -30,20 +30,23 @@ body
       font-size: 20px
       margin-right: 160px
       display: flex
-      &__element
-       a
-        color: #bab8b8
-        padding-left: 33px
-        padding-right: 33px
-        text-decoration: none
-
-        &:hover
-          color: #5ba4f5
-          font-weight: bold
+      &-navigation
+        display: flex
+        list-style-type: none
+        ul
+          display: flex
+          list-style-type: none
+          a
+            color: #bab8b8
+            padding-left: 33px
+            padding-right: 33px
+            text-decoration: none
+            &:hover
+              color: #5ba4f5
+              font-weight: bold
 
       &__button
         margin-left: 30px
-
 
 .menu-button
   padding: 14px 41.5px
@@ -52,11 +55,9 @@ body
   color: $blue
   font-size: 20px
   font-family: nunito-semibold, sans-serif
+  cursor: pointer
   &:hover
    font-weight: bold
-.navigation__elements, .navigation
-  display: flex
-  list-style-type: none
 
 .advertising
   margin-top: 327px
