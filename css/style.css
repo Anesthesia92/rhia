@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "nunito-sans-regular";
+  src: url("../fonts/nunito-sans-regular.ttf");
+}
+@font-face {
+  font-family: "nunito-semibold";
+  src: url("../fonts/nunito-semibold.ttf");
+}
+@font-face {
+  font-family: "nunito-sans-extrabold";
+  src: url("../fonts/nunito-sans-extrabold.ttf");
+}
 body {
   width: auto;
   background: url(../images/Vector.png) no-repeat 104% 28%;
@@ -17,13 +29,15 @@ body .header-menu {
   margin-right: 160px;
   display: flex;
 }
-body .header-menu__element {
+body .header-menu__element a {
   color: #bab8b8;
   padding-left: 33px;
   padding-right: 33px;
+  text-decoration: none;
 }
-body .header-menu:hover {
+body .header-menu__element a:hover {
   color: #5ba4f5;
+  font-weight: bold;
 }
 body .header-menu__button {
   margin-left: 30px;
@@ -50,17 +64,18 @@ body .header-menu__button {
   margin-top: 327px;
   margin-left: 162px;
 }
-.advertising-text__travel {
-  font-family: nunito-extrabold-regular, sans-serif;
+.advertising__title {
+  font-family: nunito-sans-extrabold, sans-serif;
   font-size: 75px;
   font-weight: bold;
+  line-height: 81px;
 }
-.advertising-text__plan {
+.advertising__plan {
   font-family: nunito-sans-regular, sans-serif;
   font-size: 22px;
   margin-top: 70px;
 }
-.advertising-text__button {
+.advertising__button {
   margin-top: 90px;
   background-color: #3984f3;
   color: white;
@@ -91,7 +106,7 @@ body .header-menu__button {
 .advertising__photos {
   display: flex;
 }
-.advertising__photos-1 {
+.advertising__photos-first {
   margin-right: 40px;
   margin-top: 54px;
   height: 500px;
@@ -119,13 +134,13 @@ body .header-menu__button {
   font-family: nunito-semibold, sans-serif;
   line-height: 43px;
 }
-.advertising__photos-2 {
+.advertising__photos-second {
   margin-right: 40px;
   height: 500px;
   width: 372px;
   background: url(../images/Layer3.png) no-repeat;
 }
-.advertising__photos-3 {
+.advertising__photos-third {
   margin-top: 54px;
   background: url(../images/Layer5.png) no-repeat;
   height: 500px;
