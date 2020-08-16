@@ -157,7 +157,7 @@ body .header-menu__button {
   color: #81858e;
   margin-top: 56px;
 }
-.advertising__description-feature {
+.advertising__description-feature, .advertising__description .featured-videos__feature {
   width: 80px;
   border: solid 3px #3984f3;
 }
