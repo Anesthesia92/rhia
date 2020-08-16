@@ -165,18 +165,18 @@ body .header-menu__button {
   margin-left: 160px;
   margin-top: 30px;
 }
-.advertising__description-1 {
+.advertising__description-first {
   font-size: 50px;
   font-family: nunito-semibold, sans-serif;
   margin-bottom: 39px;
 }
-.advertising__description-2 {
+.advertising__description-second {
   font-size: 22px;
   font-family: nunito-sans-regular, sans-serif;
   color: #81858e;
   margin-top: 56px;
 }
-.advertising__description-feature, .advertising__description .featured-videos__feature {
+.advertising__description-feature {
   width: 80px;
   border: solid 3px #3984f3;
 }
@@ -188,6 +188,43 @@ body .header-menu__button {
   font-size: 20px;
   display: inline-block;
   margin-top: 40px;
+}
+
+.featured-videos {
+  margin-top: 255px;
+  font-family: nunito-semibold, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.featured-videos__feature {
+  width: 80px;
+  border: solid 3px #3984f3;
+  margin: 0 auto;
+}
+.featured-videos__description {
+  font-size: 22px;
+  font-family: nunito-sans-regular, sans-serif;
+  color: grey;
+  text-align: center;
+  margin-top: 55px;
+}
+.featured-videos__pics {
+  display: flex;
+  margin-top: 114px;
+}
+.featured-videos__pics-Maldives {
+  background: url(../images/Layer__10.png);
+  width: 1072px;
+  height: 612px;
+  margin-left: 160px;
+}
+.featured-videos__pics-icons {
+  display: flex;
+  margin-left: 26px;
+  flex-direction: column;
+}
+.featured-videos__pics-icons-first, .featured-videos__pics-icons-second, .featured-videos__pics-icons-third, .featured-videos__pics-icons-fourth, .featured-videos__pics-icons-fifth {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
