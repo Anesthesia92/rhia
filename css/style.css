@@ -155,7 +155,7 @@ body .header-menu__button {
 }
 .advertising__photos-7days {
   margin-top: -22px;
-  margin-left: 250px;
+  margin-left: 237px;
   font-family: nunito-semibold, sans-serif;
   font-size: 24px;
   color: #81858e;
@@ -211,12 +211,12 @@ body .header-menu__button {
 .featured-videos__pics {
   display: flex;
   margin-top: 114px;
+  justify-content: center;
 }
 .featured-videos__pics-Maldives {
   background: url(../images/Layer__10.png);
   width: 1072px;
   height: 614px;
-  margin-left: 160px;
 }
 .featured-videos__pics-start {
   justify-content: center;
@@ -228,15 +228,21 @@ body .header-menu__button {
   display: flex;
   margin-left: 26px;
   flex-direction: column;
-  margin-top: 13px;
   justify-content: space-between;
 }
 .featured-videos__pics-icons-first, .featured-videos__pics-icons-second, .featured-videos__pics-icons-third, .featured-videos__pics-icons-fourth, .featured-videos__pics-icons-fifth {
   display: flex;
   align-items: center;
 }
-.featured-videos__pics-icons-second {
-  margin-top: 9px;
+.featured-videos__pics-icons-first {
+  border: 17px solid #f0f0f0;
+  background: #f0f0f0;
+  padding-right: 13px;
+}
+.featured-videos__pics-features {
+  height: 323px;
+  border: 3px solid #bab8b8;
+  margin-left: 16px;
 }
 .featured-videos__pics-interpretation {
   font-size: 35px;
