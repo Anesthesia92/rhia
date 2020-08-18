@@ -17,7 +17,6 @@ $blue: #3984f3
 
 body
   width: auto
-  background: url(../images/Advertising_background.png) no-repeat 104% 10%
   .header
     margin-top: 60px
     display: flex
@@ -61,6 +60,14 @@ body
 .advertising
   margin-top: 327px
   margin-left: 162px
+  position: relative
+  &__bg
+    position: absolute
+    height: 998px
+    width: 1060px
+    z-index: -1
+    top: -234px
+    left: 259px
   &__title
     font-family: nunito-sans-extrabold, sans-serif
     font-size: 75px
@@ -70,6 +77,7 @@ body
     font-family: nunito-sans-regular, sans-serif
     font-size: 22px
     margin-top: 70px
+    color: grey
   &__button
     margin-top: 90px
     background-color: $blue
@@ -130,12 +138,12 @@ body
     font-family: nunito-semibold, sans-serif
     font-size: 24px
     color: #81858e
-   &__arrows
-    display: flex
-    margin-left: 188px
-    margin-top: 70px
-    &-right
-      margin-left: 70px
+.places__arrows
+  display: flex
+  margin-left: 188px
+  margin-top: 70px
+  &-right
+    margin-left: 70px
 
 .photos__description
   margin-left: 160px
@@ -191,7 +199,6 @@ body
       height: inherit
     &-icons
       display: flex
-      margin-left: 26px
       flex-direction: column
       justify-content: space-between
       &-first, &-second, &-third, &-fourth, &-fifth
@@ -201,6 +208,9 @@ body
         border: 17px solid #f0f0f0
         background: #f0f0f0
         padding-right: 13px
+        margin-left: 16px
+      &-second, &-third, &-fourth, &-fifth
+        margin-left: 31px
     &-features
       height: 323px
       border: 3px solid $light
@@ -227,4 +237,20 @@ body
          font-family: nunito-sans-regular, sans-serif
          color: grey
 
+.Travel-categories
+  margin-top: 250px
+  &__title
+    text-align: center
+    font-size: 50px
+    font-family: nunito-semibold, sans-serif
+  &__feature
+    width: 80px
+    border: solid 3px $blue
+    margin: 0 auto
+  &__description
+    color: grey
+    font-family: nunito-sans-regular, sans-serif
+    font-size: 22px
+    text-align: center
+    margin-top: 60px
 
