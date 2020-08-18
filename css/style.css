@@ -12,7 +12,7 @@
 }
 body {
   width: auto;
-  background: url(../images/Vector.png) no-repeat 104% 28%;
+  background: url(../images/Advertising_background.png) no-repeat 104% 10%;
 }
 body .header {
   margin-top: 60px;
@@ -94,40 +94,32 @@ body .header-menu__button {
   left: 840px;
   top: 213px;
 }
-.advertising__places {
+
+.places {
   margin-top: 478px;
   display: flex;
 }
-.advertising__arrows {
-  display: flex;
-  margin-left: 188px;
-  margin-top: 70px;
-}
-.advertising__arrows-right {
-  margin-left: 70px;
-}
-
-.advertising__photos {
+.places__photos {
   display: flex;
 }
-.advertising__photos-first {
+.places__photos-first {
   margin-right: 40px;
   margin-top: 54px;
   height: 500px;
   width: 225px;
   background: url(../images/Layer2.png) no-repeat;
 }
-.advertising__photos-Maldives, .advertising__photos-Kathmandu, .advertising__photos-Indonesia {
+.places__photos-Maldives, .places__photos-Kathmandu, .places__photos-Indonesia {
   font-size: 23px;
   font-family: nunito-sans-regular, sans-serif;
   color: white;
   margin-top: 440px;
 }
-.advertising__photos-Kathmandu, .advertising__photos-Indonesia {
+.places__photos-Kathmandu, .places__photos-Indonesia {
   margin-left: 25px;
   margin-top: 365px;
 }
-.advertising__photos-price {
+.places__photos-price {
   width: 110px;
   height: 43px;
   margin-top: 28px;
@@ -138,49 +130,57 @@ body .header-menu__button {
   font-family: nunito-semibold, sans-serif;
   line-height: 43px;
 }
-.advertising__photos-second {
+.places__photos-second {
   margin-right: 40px;
   height: 500px;
   width: 372px;
   background: url(../images/Layer3.png) no-repeat;
 }
-.advertising__photos-third {
+.places__photos-third {
   margin-top: 54px;
   background: url(../images/Layer5.png) no-repeat;
   height: 500px;
   width: 372px;
 }
-.advertising__photos-stars {
+.places__photos-stars {
   margin-top: 57px;
 }
-.advertising__photos-7days {
+.places__photos-7days {
   margin-top: -22px;
   margin-left: 237px;
   font-family: nunito-semibold, sans-serif;
   font-size: 24px;
   color: #81858e;
 }
+.places__photos__arrows {
+  display: flex;
+  margin-left: 188px;
+  margin-top: 70px;
+}
+.places__photos__arrows-right {
+  margin-left: 70px;
+}
 
-.advertising__description {
+.photos__description {
   margin-left: 160px;
   margin-top: 30px;
 }
-.advertising__description-first {
+.photos__description-first {
   font-size: 50px;
   font-family: nunito-semibold, sans-serif;
   margin-bottom: 39px;
 }
-.advertising__description-second {
+.photos__description-second {
   font-size: 22px;
   font-family: nunito-sans-regular, sans-serif;
   color: #81858e;
   margin-top: 56px;
 }
-.advertising__description-feature {
+.photos__description-feature {
   width: 80px;
   border: solid 3px #3984f3;
 }
-.advertising__description-button {
+.photos__description-button {
   background-color: #3984f3;
   color: white;
   border: 3px solid #3984f3;
