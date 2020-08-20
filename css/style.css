@@ -53,7 +53,7 @@ body .header-menu__button {
 .menu-button {
   padding: 14px 41.5px;
   background-color: #ffffff;
-  border: 2px solid #3984f3;
+  border: 5px solid #3984f3;
   color: #3984f3;
   font-size: 20px;
   font-family: nunito-semibold, sans-serif;
@@ -92,7 +92,7 @@ body .header-menu__button {
   margin-top: 90px;
   background-color: #3984f3;
   color: white;
-  border: 2px solid #3984f3;
+  border: 5px solid #3984f3;
   padding: 14px 59px;
   font-size: 20px;
 }
@@ -186,12 +186,12 @@ body .header-menu__button {
 }
 .photos__description-feature {
   width: 80px;
-  border: solid 3px #3984f3;
+  border: solid 5px #3984f3;
 }
 .photos__description-button {
   background-color: #3984f3;
   color: white;
-  border: 2px solid #3984f3;
+  border: 5px solid #3984f3;
   padding: 14px 67px;
   font-size: 20px;
   display: inline-block;
@@ -206,7 +206,7 @@ body .header-menu__button {
 }
 .featured-videos__feature {
   width: 80px;
-  border: solid 2px #3984f3;
+  border: solid 5px #3984f3;
   margin: 0 auto;
 }
 .featured-videos__description {
@@ -290,7 +290,7 @@ body .header-menu__button {
 }
 .Travel-categories__feature {
   width: 80px;
-  border: solid 2px #3984f3;
+  border: solid 5px #3984f3;
   margin: 0 auto;
 }
 .Travel-categories__description {
@@ -323,7 +323,7 @@ body .header-menu__button {
   background: url(../images/Budda.png) no-repeat;
 }
 .Travel-categories__photos-wildlife {
-  background: url(../images/Tiger.png) no-repeat;
+  background: url(../images/tiger.png) no-repeat;
   height: 502px;
   width: 183px;
 }
@@ -347,6 +347,55 @@ body .header-menu__button {
 }
 .Travel-categories__arrows-right {
   margin-left: 33px;
+}
+
+.Travellers-experiences {
+  margin-top: 208px;
+}
+.Travellers-experiences__title {
+  font-size: 50px;
+  font-family: nunito-semibold, sans-serif;
+  text-align: center;
+}
+.Travellers-experiences__feature {
+  border: solid 5px #3984f3;
+  width: 80px;
+  margin: 0 auto;
+}
+.Travellers-experiences__description {
+  text-align: center;
+  font-family: nunito-sans-regular, sans-serif;
+  font-size: 26px;
+  margin-top: 80px;
+}
+.Travellers-experiences__arrows {
+  margin-top: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Travellers-experiences__arrows-man {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Travellers-experiences__arrows-Donquixote {
+  font-family: nunito-sans-extrabold, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+}
+.Travellers-experiences__arrows-traveller {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: nunito-sans-regular, sans-serif;
+  font-size: 20px;
+}
+.Travellers-experiences__arrows-left {
+  margin-right: 144px;
+}
+.Travellers-experiences__arrows-right {
+  margin-left: 144px;
 }
 
 /*# sourceMappingURL=style.css.map */
