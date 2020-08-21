@@ -236,16 +236,17 @@ body .header-menu__button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 31px;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 .featured-videos__pics-icon {
   display: flex;
   align-items: center;
+  margin-left: 31px;
 }
 .featured-videos__pics-icon:hover {
   background: #f0f0f0;
-  border: 15px solid #f0f0f0;
+  margin-left: 16px;
+  border: solid 15px #f0f0f0;
 }
 .featured-videos__pics-separator {
   height: 323px;
@@ -264,14 +265,14 @@ body .header-menu__button {
   font-size: 26px;
   font-family: nunito-sans-regular, sans-serif;
 }
-.featured-videos__pics-description-first, .featured-videos__pics-description-second, .featured-videos__pics-description-third, .featured-videos__pics-description-fourth, .featured-videos__pics-description-fifth {
+.featured-videos__pics-description {
   margin-left: 22px;
   font-size: 23px;
   font-family: nunito-semibold, sans-serif;
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.featured-videos__pics-description-first span, .featured-videos__pics-description-second span, .featured-videos__pics-description-third span, .featured-videos__pics-description-fourth span, .featured-videos__pics-description-fifth span {
+.featured-videos__pics-description span {
   font-size: 20px;
   font-family: nunito-sans-regular, sans-serif;
   color: grey;
