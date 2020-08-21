@@ -70,11 +70,9 @@ body .header-menu__button {
 }
 .advertising__bg {
   position: absolute;
-  height: 998px;
-  width: 1060px;
   z-index: -1;
   top: -234px;
-  left: 259px;
+  right: 0;
 }
 .advertising__title {
   font-family: nunito-sans-extrabold, sans-serif;
@@ -159,6 +157,35 @@ body .header-menu__button {
   font-size: 24px;
   color: #81858e;
 }
+.places__description {
+  margin-left: 160px;
+  margin-top: 30px;
+}
+.places__description-first {
+  font-size: 50px;
+  font-family: nunito-semibold, sans-serif;
+  margin-bottom: 39px;
+}
+.places__description-second {
+  font-size: 22px;
+  font-family: nunito-sans-regular, sans-serif;
+  color: #81858e;
+  margin-top: 56px;
+}
+.places__description-feature {
+  width: 80px;
+  border: solid 5px #3984f3;
+}
+.places__description-button {
+  background-color: #3984f3;
+  color: white;
+  border: 5px solid #3984f3;
+  padding: 14px 67px;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 40px;
+  cursor: pointer;
+}
 
 .places__arrows {
   display: flex;
@@ -169,42 +196,15 @@ body .header-menu__button {
   margin-left: 70px;
 }
 
-.photos__description {
-  margin-left: 160px;
-  margin-top: 30px;
-}
-.photos__description-first {
-  font-size: 50px;
-  font-family: nunito-semibold, sans-serif;
-  margin-bottom: 39px;
-}
-.photos__description-second {
-  font-size: 22px;
-  font-family: nunito-sans-regular, sans-serif;
-  color: #81858e;
-  margin-top: 56px;
-}
-.photos__description-feature {
-  width: 80px;
-  border: solid 5px #3984f3;
-}
-.photos__description-button {
-  background-color: #3984f3;
-  color: white;
-  border: 5px solid #3984f3;
-  padding: 14px 67px;
-  font-size: 20px;
-  display: inline-block;
-  margin-top: 40px;
-}
-
 .featured-videos {
   margin-top: 255px;
+}
+.featured-videos__title {
   font-family: nunito-semibold, sans-serif;
   font-size: 50px;
   text-align: center;
 }
-.featured-videos__feature {
+.featured-videos__separator {
   width: 80px;
   border: solid 5px #3984f3;
   margin: 0 auto;
@@ -221,7 +221,7 @@ body .header-menu__button {
   margin-top: 114px;
   justify-content: center;
 }
-.featured-videos__pics-Maldives {
+.featured-videos__pics-player {
   background: url(../images/Layer__10.png);
   width: 1072px;
   height: 614px;
@@ -232,25 +232,22 @@ body .header-menu__button {
   display: flex;
   height: inherit;
 }
-.featured-videos__pics-icons {
+.featured-videos__pics-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 31px;
+  overflow-y: hidden;
 }
-.featured-videos__pics-icons-first, .featured-videos__pics-icons-second, .featured-videos__pics-icons-third, .featured-videos__pics-icons-fourth, .featured-videos__pics-icons-fifth {
+.featured-videos__pics-icon {
   display: flex;
   align-items: center;
 }
-.featured-videos__pics-icons-first {
-  border: 17px solid #f0f0f0;
+.featured-videos__pics-icon:hover {
   background: #f0f0f0;
-  padding-right: 13px;
-  margin-left: 16px;
+  border: 15px solid #f0f0f0;
 }
-.featured-videos__pics-icons-second, .featured-videos__pics-icons-third, .featured-videos__pics-icons-fourth, .featured-videos__pics-icons-fifth {
-  margin-left: 31px;
-}
-.featured-videos__pics-features {
+.featured-videos__pics-separator {
   height: 323px;
   border: 3px solid #bab8b8;
   margin-left: 16px;
@@ -288,7 +285,7 @@ body .header-menu__button {
   font-size: 50px;
   font-family: nunito-semibold, sans-serif;
 }
-.Travel-categories__feature {
+.Travel-categories__separator {
   width: 80px;
   border: solid 5px #3984f3;
   margin: 0 auto;
@@ -357,7 +354,7 @@ body .header-menu__button {
   font-family: nunito-semibold, sans-serif;
   text-align: center;
 }
-.Travellers-experiences__feature {
+.Travellers-experiences__separator {
   border: solid 5px #3984f3;
   width: 80px;
   margin: 0 auto;
@@ -396,6 +393,20 @@ body .header-menu__button {
 }
 .Travellers-experiences__arrows-right {
   margin-left: 144px;
+}
+.Travellers-experiences__dotted {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+.Travellers-experiences__dotted-first {
+  border: solid 2px #3984f3;
+  width: 60px;
+}
+.Travellers-experiences__dotted-second {
+  width: 40px;
+  margin-left: 19px;
+  border: solid 2px #d4daf5;
 }
 
 /*# sourceMappingURL=style.css.map */

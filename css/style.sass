@@ -63,11 +63,9 @@ body
   position: relative
   &__bg
     position: absolute
-    height: 998px
-    width: 1060px
     z-index: -1
     top: -234px
-    left: 259px
+    right: 0
   &__title
     font-family: nunito-sans-extrabold, sans-serif
     font-size: 75px
@@ -136,6 +134,31 @@ body
     font-family: nunito-semibold, sans-serif
     font-size: 24px
     color: #81858e
+  &__description
+   margin-left: 160px
+   margin-top: 30px
+   &-first
+    font-size: 50px
+    font-family: nunito-semibold, sans-serif
+    margin-bottom: 39px
+   &-second
+    font-size: 22px
+    font-family: nunito-sans-regular, sans-serif
+    color: #81858e
+    margin-top: 56px
+   &-feature
+    width: 80px
+    border: solid 5px $blue
+   &-button
+    background-color: $blue
+    color: white
+    border: 5px solid $blue
+    padding: 14px 67px
+    font-size: 20px
+    display: inline-block
+    margin-top: 40px
+    cursor: pointer
+
 .places__arrows
   display: flex
   margin-left: 188px
@@ -143,36 +166,13 @@ body
   &-right
     margin-left: 70px
 
-.photos__description
-  margin-left: 160px
-  margin-top: 30px
-  &-first
-    font-size: 50px
-    font-family: nunito-semibold, sans-serif
-    margin-bottom: 39px
-  &-second
-    font-size: 22px
-    font-family: nunito-sans-regular, sans-serif
-    color: #81858e
-    margin-top: 56px
-  &-feature
-    width: 80px
-    border: solid 5px $blue
-  &-button
-   background-color: $blue
-   color: white
-   border: 5px solid $blue
-   padding: 14px 67px
-   font-size: 20px
-   display: inline-block
-   margin-top: 40px
-
 .featured-videos
   margin-top: 255px
-  font-family: nunito-semibold, sans-serif
-  font-size: 50px
-  text-align: center
-  &__feature
+  &__title
+    font-family: nunito-semibold, sans-serif
+    font-size: 50px
+    text-align: center
+  &__separator
     width: 80px
     border: solid 5px $blue
     margin: 0 auto
@@ -186,7 +186,7 @@ body
     display: flex
     margin-top: 114px
     justify-content: center
-    &-Maldives
+    &-player
       background: url(../images/Layer__10.png)
       width: 1072px
       height: 614px
@@ -195,21 +195,20 @@ body
       align-items: center
       display: flex
       height: inherit
-    &-icons
+    &-list
       display: flex
       flex-direction: column
       justify-content: space-between
-      &-first, &-second, &-third, &-fourth, &-fifth
-        display: flex
-        align-items: center
-      &-first
-        border: 17px solid #f0f0f0
+      margin-left: 31px
+      overflow-y: hidden
+    &-icon
+      display: flex
+      align-items: center
+      &:hover
         background: #f0f0f0
-        padding-right: 13px
-        margin-left: 16px
-      &-second, &-third, &-fourth, &-fifth
-        margin-left: 31px
-    &-features
+        border: 15px solid #f0f0f0
+
+    &-separator
       height: 323px
       border: 3px solid $light
       margin-left: 16px
@@ -241,7 +240,7 @@ body
     text-align: center
     font-size: 50px
     font-family: nunito-semibold, sans-serif
-  &__feature
+  &__separator
     width: 80px
     border: solid 5px $blue
     margin: 0 auto
@@ -294,7 +293,7 @@ body
     font-size: 50px
     font-family: nunito-semibold, sans-serif
     text-align: center
-  &__feature
+  &__separator
     border: solid 5px $blue
     width: 80px
     margin: 0 auto
@@ -326,6 +325,20 @@ body
       margin-right: 144px
     &-right
       margin-left: 144px
+  &__dotted
+    display: flex
+    margin-top: 60px
+    justify-content: center
+    &-first
+      border: solid 2px $blue
+      width: 60px
+    &-second
+      width: 40px
+      margin-left: 19px
+      border: solid 2px #d4daf5
+
+
+
 
 
 
