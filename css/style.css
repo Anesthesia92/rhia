@@ -410,4 +410,71 @@ body .header-menu__button {
   border: solid 2px #d4daf5;
 }
 
+.reservation {
+  margin-top: 254px;
+  background: url(../images/clouds.png) no-repeat;
+}
+.reservation__title {
+  color: white;
+  font-size: 37px;
+  font-family: nunito-semibold, sans-serif;
+  text-align: center;
+  padding-top: 310px;
+  margin-block-end: 0;
+}
+.reservation__sale {
+  font-family: nunito-sans-extrabold, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  margin-block-start: 0;
+}
+
+.footer-menu__navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.footer-menu__navigation ul {
+  display: flex;
+  list-style-type: none;
+  font-family: nunito-sans-regular, sans-serif;
+  font-size: 18px;
+}
+.footer-menu__navigation ul a {
+  color: black;
+  padding-left: 33px;
+  padding-right: 33px;
+  text-decoration: none;
+}
+.footer-menu__navigation ul a:hover {
+  color: #5ba4f5;
+  font-weight: bold;
+}
+.footer-menu__copyright {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: nunito-semibold, sans-serif;
+  font-size: 15px;
+}
+.footer-menu__copyright span {
+  color: #bab8b8;
+  margin-left: 5px;
+}
+.footer-menu__messengers {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.footer-menu__messengers-youtube, .footer-menu__messengers-facebook, .footer-menu__messengers-telegram, .footer-menu__messengers-messenger {
+  background: url(../images/ellipse.png) no-repeat;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 23px;
+}
+
 /*# sourceMappingURL=style.css.map */
