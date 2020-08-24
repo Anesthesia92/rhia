@@ -12,6 +12,7 @@
 }
 body {
   width: auto;
+  margin: 0 auto;
 }
 body .header {
   margin-top: 60px;
@@ -412,7 +413,7 @@ body .header-menu__button {
 
 .reservation {
   margin-top: 254px;
-  background: url(../images/clouds.png) no-repeat;
+  background: url(../images/clouds.png) center;
 }
 .reservation__title {
   color: white;
@@ -429,7 +430,24 @@ body .header-menu__button {
   color: white;
   margin-block-start: 0;
 }
+.reservation__form {
+  display: flex;
+  justify-content: center;
+  font-family: nunito-semibold, sans-serif;
+}
+.reservation__form-button {
+  background-color: #3984f3;
+  color: white;
+  border: 5px solid #3984f3;
+  padding: 16px 118px;
+  font-size: 23px;
+  margin-top: 40px;
+  cursor: pointer;
+}
 
+.footer-menu {
+  margin-top: 76px;
+}
 .footer-menu__navigation {
   display: flex;
   list-style-type: none;

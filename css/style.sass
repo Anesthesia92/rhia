@@ -17,6 +17,7 @@ $blue: #3984f3
 
 body
   width: auto
+  margin: 0 auto
   .header
     margin-top: 60px
     display: flex
@@ -158,11 +159,11 @@ body
     display: inline-block
     margin-top: 40px
     cursor: pointer
-
 .places__arrows
   display: flex
   margin-left: 188px
   margin-top: 70px
+
   &-right
     margin-left: 70px
 
@@ -340,7 +341,7 @@ body
 
 .reservation
   margin-top: 254px
-  background: url(../images/clouds.png) no-repeat
+  background: url(../images/clouds.png) center
   &__title
     color: white
     font-size: 37px
@@ -354,10 +355,22 @@ body
     text-align: center
     color: white
     margin-block-start: 0
-
+  &__form
+    display: flex
+    justify-content: center
+    font-family: nunito-semibold, sans-serif
+    &-button
+     background-color: $blue
+     color: white
+     border: 5px solid $blue
+     padding: 16px 118px
+     font-size: 23px
+     margin-top: 40px
+     cursor: pointer
 
 .footer-menu
- &__navigation
+  margin-top: 76px
+  &__navigation
    display: flex
    list-style-type: none
    justify-content: center
@@ -374,27 +387,27 @@ body
      &:hover
       color: #5ba4f5
       font-weight: bold
- &__copyright
-  color: black
-  display: flex
-  justify-content: center
-  font-family: nunito-semibold, sans-serif
-  font-size: 15px
-  span
-    color: $light
-    margin-left: 5px
- &__messengers
-  display: flex
-  justify-content: center
-  margin-top: 28px
-  &-youtube, &-facebook, &-telegram, &-messenger
-    background: url(../images/ellipse.png) no-repeat
-    height: 50px
-    width: 50px
+  &__copyright
+    color: black
     display: flex
     justify-content: center
-    align-items: center
-    padding-right: 23px
+    font-family: nunito-semibold, sans-serif
+    font-size: 15px
+    span
+      color: $light
+      margin-left: 5px
+  &__messengers
+    display: flex
+    justify-content: center
+    margin-top: 28px
+    &-youtube, &-facebook, &-telegram, &-messenger
+      background: url(../images/ellipse.png) no-repeat
+      height: 50px
+      width: 50px
+      display: flex
+      justify-content: center
+      align-items: center
+      padding-right: 23px
 
 
 
