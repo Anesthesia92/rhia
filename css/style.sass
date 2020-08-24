@@ -342,6 +342,7 @@ body
 .reservation
   margin-top: 254px
   background: url(../images/clouds.png) center
+  height: 900px
   &__title
     color: white
     font-size: 37px
@@ -359,13 +360,31 @@ body
     display: flex
     justify-content: center
     font-family: nunito-semibold, sans-serif
+    &-destinations, &-package, &-date
+      height: 70px
+      width: 350px
+      justify-content: center
+      display: flex
+      align-items: center
+      position: relative
+      margin-right: 56px
+      &__polygons
+        &-first, &-second
+          position: absolute
+          left: 290px
+          top: 40px
+        &-first
+          top: 26px
+    &-date
+      &__calendar
+        position: absolute
+        left: 286px
     &-button
      background-color: $blue
      color: white
      border: 5px solid $blue
      padding: 16px 118px
      font-size: 23px
-     margin-top: 40px
      cursor: pointer
 
 .footer-menu
@@ -409,6 +428,21 @@ body
       align-items: center
       padding-right: 23px
 
+input
+  text-rendering: auto
+  color: white
+  letter-spacing: normal
+  word-spacing: normal
+  text-transform: none
+  text-shadow: none
+  width: 350px
+  height: 70px
+  background: rgba(255, 255, 255, 0.2)
+  border: 1px solid rgba(0,0,0,0.1)
+  text-indent: 40px
+  display: flex
+  font: 400 24px nunito-semibold, sans-serif
+  margin-right: inherit
 
 
 

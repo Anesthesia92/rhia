@@ -414,6 +414,7 @@ body .header-menu__button {
 .reservation {
   margin-top: 254px;
   background: url(../images/clouds.png) center;
+  height: 900px;
 }
 .reservation__title {
   color: white;
@@ -435,13 +436,33 @@ body .header-menu__button {
   justify-content: center;
   font-family: nunito-semibold, sans-serif;
 }
+.reservation__form-destinations, .reservation__form-package, .reservation__form-date {
+  height: 70px;
+  width: 350px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 56px;
+}
+.reservation__form-destinations__polygons-first, .reservation__form-destinations__polygons-second, .reservation__form-package__polygons-first, .reservation__form-package__polygons-second, .reservation__form-date__polygons-first, .reservation__form-date__polygons-second {
+  position: absolute;
+  left: 290px;
+  top: 40px;
+}
+.reservation__form-destinations__polygons-first, .reservation__form-package__polygons-first, .reservation__form-date__polygons-first {
+  top: 26px;
+}
+.reservation__form-date__calendar {
+  position: absolute;
+  left: 286px;
+}
 .reservation__form-button {
   background-color: #3984f3;
   color: white;
   border: 5px solid #3984f3;
   padding: 16px 118px;
   font-size: 23px;
-  margin-top: 40px;
   cursor: pointer;
 }
 
@@ -493,6 +514,23 @@ body .header-menu__button {
   justify-content: center;
   align-items: center;
   padding-right: 23px;
+}
+
+input {
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  width: 350px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-indent: 40px;
+  display: flex;
+  font: 400 24px nunito-semibold, sans-serif;
+  margin-right: inherit;
 }
 
 /*# sourceMappingURL=style.css.map */

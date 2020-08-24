@@ -319,26 +319,30 @@
         <div class="reservation__form">
           <div class="reservation__form-destinations">
 
-            <select name="form_select" size="1" multiple="multiple">
-              <option value="Значение 1">Первый вариант</option>
-              <option value="Значение 2">Второй вариант</option>
-              <option selected="selected" value="Значение 3">Третий вариант</option>
-              <option selected="selected" value="Значение 4">Четвертый вариант</option>
-              <option value="Значение 5">Пятый вариант</option>
-              <option value="Значение 6">Шестой вариант</option>
-            </select>
+            <label>
+          <input name="destinations" value="Destinations" />
+            </label>
+            <div class="reservation__form-destinations__polygons">
+              <img class="reservation__form-destinations__polygons-first" src="images/Polygon-up.png" height="9" width="10" alt="Polygon-up"/>
+              <img class="reservation__form-destinations__polygons-second" src="images/Polygondown.png" height="9" width="10" alt="Polygon_down"/></div>
           </div>
           <div class="reservation__form-package">
-
-
+            <label>
+              <input name="package" value="Package"/>
+            </label>
+            <div class="reservation__form-destinations__polygons">
+              <img class="reservation__form-destinations__polygons-first" src="images/Polygon-up.png" height="9" width="10" alt="Polygon-up"/>
+              <img class="reservation__form-destinations__polygons-second" src="images/Polygondown.png" height="9" width="10" alt="Polygon_down"/></div>
           </div>
-
           <div class="reservation__form-date">
+            <label>
+              <input type="text" id="datepicker" value="Dates"/>
+            </label>
 
-
+            <img class="reservation__form-date__calendar" src="images/icondate.png" height="23" width="23" alt="date"/>
           </div>
           <button type="button" class="reservation__form-button">
-            Book now
+              Book now
           </button>
         </div>
       </div>
