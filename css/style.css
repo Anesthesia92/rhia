@@ -150,6 +150,8 @@ body .header-menu__button {
 }
 .places__photos-stars {
   margin-top: 57px;
+  color: #3984f3;
+  font-size: 21px;
 }
 .places__photos-7days {
   margin-top: -22px;
@@ -157,6 +159,7 @@ body .header-menu__button {
   font-family: nunito-semibold, sans-serif;
   font-size: 24px;
   color: #81858e;
+  height: 21px;
 }
 .places__description {
   margin-left: 160px;
