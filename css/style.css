@@ -195,9 +195,14 @@ body .header-menu__button {
   display: flex;
   margin-left: 188px;
   margin-top: 70px;
+  font-size: 33px;
 }
 .places__arrows-right {
   margin-left: 70px;
+  color: #d2d2d2;
+}
+.places__arrows-left {
+  color: #a4a4a4;
 }
 
 .featured-videos {
@@ -338,6 +343,8 @@ body .header-menu__button {
 .Travel-categories__arrows {
   margin-top: 95px;
   text-align: center;
+  font-size: 33px;
+  color: #a0a0a0;
 }
 .Travel-categories__arrows-left {
   margin-right: 33px;
@@ -370,6 +377,7 @@ body .header-menu__button {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .Travellers-experiences__arrows-man {
   display: flex;
@@ -390,9 +398,13 @@ body .header-menu__button {
 }
 .Travellers-experiences__arrows-left {
   margin-right: 144px;
+  font-size: 33px;
+  color: #dfdfdf;
 }
 .Travellers-experiences__arrows-right {
   margin-left: 144px;
+  font-size: 33px;
+  color: #a0a0a0;
 }
 .Travellers-experiences__dotted {
   display: flex;
@@ -443,10 +455,13 @@ body .header-menu__button {
   position: relative;
   margin-right: 56px;
 }
+.reservation__form-destinations__polygons, .reservation__form-package__polygons, .reservation__form-date__polygons {
+  color: white;
+}
 .reservation__form-destinations__polygons-first, .reservation__form-destinations__polygons-second, .reservation__form-package__polygons-first, .reservation__form-package__polygons-second, .reservation__form-date__polygons-first, .reservation__form-date__polygons-second {
   position: absolute;
   left: 290px;
-  top: 40px;
+  top: 31px;
 }
 .reservation__form-destinations__polygons-first, .reservation__form-package__polygons-first, .reservation__form-date__polygons-first {
   top: 26px;
@@ -454,6 +469,8 @@ body .header-menu__button {
 .reservation__form-date__calendar {
   position: absolute;
   left: 286px;
+  color: white;
+  font-size: 24px;
 }
 .reservation__form-button {
   background-color: #3984f3;
