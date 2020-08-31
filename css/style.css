@@ -529,6 +529,8 @@ body .header-menu__button {
   justify-content: center;
   align-items: center;
   padding-right: 23px;
+  font-size: 18px;
+  color: white;
 }
 
 input {
