@@ -231,7 +231,6 @@ body .header-menu__button {
   justify-content: center;
 }
 .featured-videos__pics-player {
-  background: url(../images/Layer__10.png);
   width: 1072px;
   height: 614px;
 }
@@ -256,18 +255,6 @@ body .header-menu__button {
   background: #f0f0f0;
   margin-left: 16px;
   border: solid 15px #f0f0f0;
-}
-.featured-videos__pics-interpretation {
-  font-size: 35px;
-  font-family: nunito-semibold, sans-serif;
-  color: white;
-  margin-top: -123px;
-  margin-left: 52px;
-}
-.featured-videos__pics-interpretation span {
-  color: #bab8b8;
-  font-size: 26px;
-  font-family: nunito-sans-regular, sans-serif;
 }
 .featured-videos__pics-description {
   margin-left: 22px;
