@@ -184,10 +184,6 @@ body
     font-family: nunito-semibold, sans-serif
     font-size: 50px
     text-align: center
-  &__separator
-    width: 80px
-    border: solid 5px $blue
-    margin: 0 auto
   &__description
     font-size: 22px
     font-family: nunito-sans-regular, sans-serif
@@ -210,7 +206,8 @@ body
       display: flex
       flex-direction: column
       justify-content: space-between
-      overflow-y: auto
+      &:hover
+        padding-bottom: 16px
     &-icon
       display: flex
       align-items: center
@@ -219,6 +216,7 @@ body
         background: #f0f0f0
         margin-left: 16px
         border: solid 15px #f0f0f0
+
     &-description
       margin-left: 22px
       font-size: 23px
@@ -230,7 +228,7 @@ body
        font-family: nunito-sans-regular, sans-serif
        color: grey
 
-.Travel-categories
+.travel-categories
   margin-top: 250px
   &__title
     text-align: center
@@ -253,30 +251,14 @@ body
     font-family: nunito-sans-regular, sans-serif
     font-size: 28px
     color: white
-    &-food
-      height: 502px
-      width: 183px
-      background: url(../images/food.png) no-repeat
-    &-backpacking
-      background: url(../images/human.png) no-repeat
-    &-beaches
-      background: url(../images/beachsee.png) no-repeat
-    &-art
-      background: url(../images/Budda.png) no-repeat
-    &-wildlife
-      background: url(../images/tiger.png) no-repeat
-      height: 502px
-      width: 183px
-    &-backpacking, &-beaches, &-art
-      height: 502px
-      width: 473px
-    &-food, &-backpacking, &-art, &-wildlife
-      margin-top: 61px
-    &-advertising
-      margin-top: 434px
-      margin-left: 30px
+    &__all
+      &-food, &-backpacking, &-budda, &-tiger
+        margin-top: 60px
+      &-advertising
+        margin-top: -81px
+        margin-left: 30px
   &__arrows
-    margin-top: 95px
+    margin-top: 96px
     text-align: center
     font-size: 33px
     color: #a0a0a0
@@ -285,7 +267,7 @@ body
     &-right
       margin-left: 33px
 
-.Travellers-experiences
+.travellers-experiences
   margin-top: 208px
   &__title
     font-size: 50px
