@@ -21,6 +21,8 @@ body .header {
 }
 body .header-logo {
   margin-left: 162px;
+  height: 50px;
+  width: 179px;
 }
 body .header-menu {
   font-family: nunito-sans-regular, sans-serif;
