@@ -115,56 +115,51 @@ body .header-menu__button {
 .places {
   margin-top: 478px;
   display: flex;
+  flex-direction: column;
 }
 .places__photos {
   display: flex;
+  flex-direction: row;
 }
-.places__photos-first {
-  margin-right: 40px;
-  margin-top: 54px;
-  height: 500px;
-  width: 225px;
-  background: url(../images/Layer2.png) no-repeat;
+.places__photos-countries {
+  display: flex;
 }
-.places__photos-Maldives, .places__photos-Kathmandu, .places__photos-Indonesia {
+.places__photos-countries__all {
+  margin-right: 32px;
+}
+.places__photos-countries__all-maldives-img, .places__photos-countries__all-indonesia-img {
+  margin-top: 70px;
+}
+.places__photos-countries__all-maldives, .places__photos-countries__all-kathmandu, .places__photos-countries__all-indonesia {
   font-size: 23px;
   font-family: nunito-sans-regular, sans-serif;
   color: white;
-  margin-top: 440px;
 }
-.places__photos-Kathmandu, .places__photos-Indonesia {
-  margin-left: 25px;
-  margin-top: 365px;
+.places__photos-countries__all-maldives {
+  margin-top: -58px;
 }
-.places__photos-price {
+.places__photos-countries__all-kathmandu, .places__photos-countries__all-indonesia {
+  margin-top: -59px;
+  margin-left: 26px;
+}
+.places__photos-countries__all-price {
   width: 110px;
   height: 43px;
-  margin-top: 28px;
   background: #3984f3;
   text-align: center;
   color: white;
   font-size: 24px;
   font-family: nunito-semibold, sans-serif;
   line-height: 43px;
+  position: absolute;
+  margin-top: -475px;
 }
-.places__photos-second {
-  margin-right: 40px;
-  height: 500px;
-  width: 372px;
-  background: url(../images/Layer3.png) no-repeat;
-}
-.places__photos-third {
-  margin-top: 54px;
-  background: url(../images/Layer5.png) no-repeat;
-  height: 500px;
-  width: 372px;
-}
-.places__photos-stars {
+.places__photos-countries__all-stars {
   margin-top: 57px;
   color: #3984f3;
   font-size: 21px;
 }
-.places__photos-7days {
+.places__photos-countries__all-7days {
   margin-top: -22px;
   margin-left: 237px;
   font-family: nunito-semibold, sans-serif;
@@ -172,26 +167,22 @@ body .header-menu__button {
   color: #81858e;
   height: 21px;
 }
-.places__description {
-  margin-left: 160px;
+.places__photos-description {
+  margin-left: 136px;
   margin-top: 30px;
 }
-.places__description-first {
+.places__photos-description-first {
   font-size: 50px;
   font-family: nunito-semibold, sans-serif;
   margin-bottom: 39px;
 }
-.places__description-second {
+.places__photos-description-second {
   font-size: 22px;
   font-family: nunito-sans-regular, sans-serif;
   color: #81858e;
   margin-top: 56px;
 }
-.places__description-feature {
-  width: 80px;
-  border: solid 5px #3984f3;
-}
-.places__description-button {
+.places__photos-description-button {
   background-color: #3984f3;
   color: white;
   border: 5px solid #3984f3;
@@ -201,12 +192,11 @@ body .header-menu__button {
   margin-top: 40px;
   cursor: pointer;
 }
-.places__description-button:hover {
+.places__photos-description-button:hover {
   font-weight: bold;
   background-color: white;
   color: #3984f3;
 }
-
 .places__arrows {
   display: flex;
   margin-left: 188px;
@@ -580,6 +570,16 @@ input::placeholder {
 
 #style-1::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
+}
+
+.separator, .separator-first {
+  width: 80px;
+  border: solid 5px #3984f3;
+  margin: 0 auto;
+}
+
+.separator-first {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

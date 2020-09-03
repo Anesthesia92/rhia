@@ -94,8 +94,6 @@ body
       font-weight: bold
       background-color: white
       color: $blue
-
-
   &__pic
     position: absolute
     left: 840px
@@ -103,91 +101,82 @@ body
 .places
   margin-top: 478px
   display: flex
+  flex-direction: column
   &__photos
    display: flex
-   &-first
-    margin-right: 40px
-    margin-top: 54px
-    height: 500px
-    width: 225px
-    background: url(../images/Layer2.png) no-repeat
-   &-Maldives, &-Kathmandu, &-Indonesia
-    font-size: 23px
-    font-family: nunito-sans-regular, sans-serif
-    color: white
-    margin-top: 440px
-   &-Kathmandu, &-Indonesia
-    margin-left: 25px
-    margin-top: 365px
-   &-price
-    width: 110px
-    height: 43px
-    margin-top: 28px
-    background: $blue
-    text-align: center
-    color: white
-    font-size: 24px
-    font-family: nunito-semibold, sans-serif
-    line-height: 43px
-   &-second
-    margin-right: 40px
-    height: 500px
-    width: 372px
-    background: url(../images/Layer3.png) no-repeat
-   &-third
-    margin-top: 54px
-    background: url(../images/Layer5.png) no-repeat
-    height: 500px
-    width: 372px
-   &-stars
-    margin-top: 57px
-    color: #3984f3
-    font-size: 21px
-   &-7days
-    margin-top: -22px
-    margin-left: 237px
-    font-family: nunito-semibold, sans-serif
-    font-size: 24px
-    color: #81858e
-    height: 21px
-  &__description
-   margin-left: 160px
-   margin-top: 30px
-   &-first
-    font-size: 50px
-    font-family: nunito-semibold, sans-serif
-    margin-bottom: 39px
-   &-second
-    font-size: 22px
-    font-family: nunito-sans-regular, sans-serif
-    color: #81858e
-    margin-top: 56px
-   &-feature
-    width: 80px
-    border: solid 5px $blue
-   &-button
-    background-color: $blue
-    color: white
-    border: 5px solid $blue
-    padding: 14px 67px
-    font-size: 20px
-    display: inline-block
-    margin-top: 40px
-    cursor: pointer
-    &:hover
-      font-weight: bold
-      background-color: white
-      color: $blue
-.places__arrows
-  display: flex
-  margin-left: 188px
-  margin-top: 70px
-  font-size: 33px
-  &-right
-    margin-left: 70px
-    color: #d2d2d2
-  &-left
-    color: #a4a4a4
+   flex-direction: row
+   &-countries
+    display: flex
+    &__all
+      margin-right: 32px
+      &-maldives-img, &-indonesia-img
+        margin-top: 70px
+      &-maldives, &-kathmandu, &-indonesia
+        font-size: 23px
+        font-family: nunito-sans-regular, sans-serif
+        color: white
+      &-maldives
+        margin-top: -58px
+      &-kathmandu, &-indonesia
+        margin-top: -59px
+        margin-left: 26px
+      &-price
+       width: 110px
+       height: 43px
+       background: $blue
+       text-align: center
+       color: white
+       font-size: 24px
+       font-family: nunito-semibold, sans-serif
+       line-height: 43px
+       position: absolute
+       margin-top: -475px
+      &-stars
+       margin-top: 57px
+       color: #3984f3
+       font-size: 21px
+      &-7days
+        margin-top: -22px
+        margin-left: 237px
+        font-family: nunito-semibold, sans-serif
+        font-size: 24px
+        color: #81858e
+        height: 21px
+   &-description
+     margin-left: 136px
+     margin-top: 30px
+     &-first
+      font-size: 50px
+      font-family: nunito-semibold, sans-serif
+      margin-bottom: 39px
+     &-second
+      font-size: 22px
+      font-family: nunito-sans-regular, sans-serif
+      color: #81858e
+      margin-top: 56px
+     &-button
+      background-color: $blue
+      color: white
+      border: 5px solid $blue
+      padding: 14px 67px
+      font-size: 20px
+      display: inline-block
+      margin-top: 40px
+      cursor: pointer
+      &:hover
+        font-weight: bold
+        background-color: white
+        color: $blue
+  &__arrows
+    display: flex
+    margin-left: 188px
+    margin-top: 70px
+    font-size: 33px
+    &-right
+      margin-left: 70px
+      color: #d2d2d2
+    &-left
+      color: #a4a4a4
 
 .featured-videos
   margin-top: 255px
@@ -230,7 +219,6 @@ body
         background: #f0f0f0
         margin-left: 16px
         border: solid 15px #f0f0f0
-
     &-description
       margin-left: 22px
       font-size: 23px
@@ -483,6 +471,15 @@ input::placeholder
 
 #style-1::-webkit-scrollbar-thumb
   background-color: #d9d9d9
+
+.separator
+ width: 80px
+ border: solid 5px $blue
+ margin: 0 auto
+
+.separator-first
+  @extend .separator
+  margin: 0
 
 
 
