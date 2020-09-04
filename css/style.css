@@ -245,6 +245,8 @@ body .header-menu__button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-y: auto;
+  height: 612px;
 }
 .featured-videos__pics-icon {
   display: flex;
@@ -257,6 +259,10 @@ body .header-menu__button {
 .featured-videos__pics-icon:hover {
   background: #f0f0f0;
   width: 100%;
+}
+.featured-videos__pics-icon-video {
+  height: 113px;
+  width: 196px;
 }
 .featured-videos__pics-description {
   margin-left: 22px;
@@ -278,11 +284,6 @@ body .header-menu__button {
   text-align: center;
   font-size: 50px;
   font-family: nunito-semibold, sans-serif;
-}
-.travel-categories__separator {
-  width: 80px;
-  border: solid 5px #3984f3;
-  margin: 0 auto;
 }
 .travel-categories__description {
   color: grey;
@@ -376,15 +377,6 @@ body .header-menu__button {
   display: flex;
   margin-top: 60px;
   justify-content: center;
-}
-.travellers-experiences__separators-first {
-  border: solid 2px #3984f3;
-  width: 60px;
-}
-.travellers-experiences__separators-second {
-  width: 40px;
-  margin-left: 19px;
-  border: solid 2px #d4daf5;
 }
 
 .reservation {
@@ -534,7 +526,7 @@ input::placeholder {
 }
 
 .force-overflow {
-  min-height: 328px;
+  min-height: 617px;
 }
 
 #style-1::-webkit-scrollbar {

@@ -206,6 +206,8 @@ body
       display: flex
       flex-direction: column
       justify-content: space-between
+      overflow-y: auto
+      height: 612px
     &-icon
       display: flex
       align-items: center
@@ -216,6 +218,9 @@ body
       &:hover
         background: #f0f0f0
         width: 100%
+      &-video
+        height: 113px
+        width: 196px
     &-description
       margin-left: 22px
       font-size: 23px
@@ -233,10 +238,6 @@ body
     text-align: center
     font-size: 50px
     font-family: nunito-semibold, sans-serif
-  &__separator
-    width: 80px
-    border: solid 5px $blue
-    margin: 0 auto
   &__description
     color: grey
     font-family: nunito-sans-regular, sans-serif
@@ -313,13 +314,6 @@ body
     display: flex
     margin-top: 60px
     justify-content: center
-    &-first
-      border: solid 2px $blue
-      width: 60px
-    &-second
-      width: 40px
-      margin-left: 19px
-      border: solid 2px #d4daf5
 
 .reservation
   margin-top: 254px
@@ -445,7 +439,7 @@ input::placeholder
   cursor: pointer
 
 .force-overflow
-  min-height: 328px
+  min-height: 617px
 
 #style-1::-webkit-scrollbar
   width: 6px
