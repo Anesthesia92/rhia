@@ -246,6 +246,7 @@ body .header-menu__button {
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
+  overflow-x: hidden;
   height: 612px;
 }
 .featured-videos__pics-icon {
@@ -255,6 +256,7 @@ body .header-menu__button {
   margin-left: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-right: 40px;
 }
 .featured-videos__pics-icon:hover {
   background: #f0f0f0;
@@ -525,28 +527,6 @@ input::placeholder {
   cursor: pointer;
 }
 
-.force-overflow {
-  min-height: 617px;
-}
-
-#style-1::-webkit-scrollbar {
-  width: 6px;
-  background-color: #d9d9d9;
-}
-
-#style-1::-webkit-scrollbar-thumb {
-  background-color: #d9d9d9;
-}
-
-#style-2::-webkit-scrollbar {
-  width: 6px;
-  background-color: #d9d9d9;
-}
-
-#style-2::-webkit-scrollbar-thumb {
-  background-color: #d9d9d9;
-}
-
 .separator-large {
   width: 80px;
   border: solid 5px #3984f3;
@@ -565,6 +545,16 @@ input::placeholder {
 
 .separator-more {
   margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-color: #bab8b8;
+  background-color: #bab8b8;
 }
 
 /*# sourceMappingURL=style.css.map */

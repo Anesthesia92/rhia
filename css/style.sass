@@ -207,6 +207,7 @@ body
       flex-direction: column
       justify-content: space-between
       overflow-y: auto
+      overflow-x: hidden
       height: 612px
     &-icon
       display: flex
@@ -215,6 +216,7 @@ body
       margin-left: 16px
       padding-top: 10px
       padding-bottom: 10px
+      margin-right: 40px
       &:hover
         background: #f0f0f0
         width: 100%
@@ -438,22 +440,6 @@ input::placeholder
   overflow-y: scroll
   cursor: pointer
 
-.force-overflow
-  min-height: 617px
-
-#style-1::-webkit-scrollbar
-  width: 6px
-  background-color: #d9d9d9
-
-#style-1::-webkit-scrollbar-thumb
-  background-color: #d9d9d9
-
-#style-2::-webkit-scrollbar
-  width: 6px
-  background-color: #d9d9d9
-
-#style-2::-webkit-scrollbar-thumb
-  background-color: #d9d9d9
 
 .separator-large
  width: 80px
@@ -470,12 +456,13 @@ input::placeholder
 .separator-more
   margin: 0 auto
 
+::-webkit-scrollbar
+  width: 6px
 
-
-
-
-
-
+::-webkit-scrollbar-thumb
+  border-width: 1px 1px 1px 2px
+  border-color: $light
+  background-color: $light
 
 
 
