@@ -246,18 +246,17 @@ body .header-menu__button {
   flex-direction: column;
   justify-content: space-between;
 }
-.featured-videos__pics-list:hover {
-  padding-bottom: 16px;
-}
 .featured-videos__pics-icon {
   display: flex;
   align-items: center;
-  margin-left: 31px;
+  padding-left: 15px;
+  margin-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .featured-videos__pics-icon:hover {
   background: #f0f0f0;
-  margin-left: 16px;
-  border: solid 15px #f0f0f0;
+  width: 100%;
 }
 .featured-videos__pics-description {
   margin-left: 22px;
