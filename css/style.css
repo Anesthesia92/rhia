@@ -56,7 +56,7 @@ body .header-menu__button {
 .menu-button {
   padding: 11px 40.5px;
   background-color: #ffffff;
-  border: 4px solid #3984f3;
+  border: 3px solid #3984f3;
   color: #3984f3;
   font-size: 20px;
   font-family: nunito-semibold, sans-serif;
@@ -372,16 +372,16 @@ body .header-menu__button {
   font-size: 33px;
   color: #a0a0a0;
 }
-.travellers-experiences__dotted {
+.travellers-experiences__separators {
   display: flex;
   margin-top: 60px;
   justify-content: center;
 }
-.travellers-experiences__dotted-first {
+.travellers-experiences__separators-first {
   border: solid 2px #3984f3;
   width: 60px;
 }
-.travellers-experiences__dotted-second {
+.travellers-experiences__separators-second {
   width: 40px;
   margin-left: 19px;
   border: solid 2px #d4daf5;
@@ -555,14 +555,24 @@ input::placeholder {
   background-color: #d9d9d9;
 }
 
-.separator, .separator-first {
+.separator-large {
   width: 80px;
   border: solid 5px #3984f3;
-  margin: 0 auto;
 }
 
-.separator-first {
-  margin: 0;
+.separator-middle {
+  border: solid 2px #3984f3;
+  width: 60px;
+}
+
+.separator-small {
+  width: 40px;
+  margin-left: 19px;
+  border: solid 2px #d4daf5;
+}
+
+.separator-more {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
