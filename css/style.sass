@@ -275,10 +275,6 @@ body
     font-size: 50px
     font-family: nunito-semibold, sans-serif
     text-align: center
-  &__separator
-    border: solid 5px $blue
-    width: 80px
-    margin: 0 auto
   &__description
     text-align: center
     font-family: nunito-sans-regular, sans-serif
@@ -403,7 +399,7 @@ body
     display: flex
     justify-content: center
     margin-top: 28px
-    &-youtube, &-facebook, &-telegram, &-messenger
+    &-icons
       background: url(../images/ellipse.png) no-repeat
       height: 50px
       width: 50px
@@ -411,8 +407,13 @@ body
       justify-content: center
       align-items: center
       padding-right: 23px
-      font-size: 18px
+      font-size: 16px
       color: white
+      &-all
+        width: 21px
+        height: 15px
+        &__f
+          width: 16px
 
 input
   text-rendering: auto
@@ -440,21 +441,6 @@ input::placeholder
   overflow-y: scroll
   cursor: pointer
 
-
-.separator-large
- width: 80px
- border: solid 5px $blue
-
-.separator-middle
-  border: solid 2px $blue
-  width: 60px
-.separator-small
-  width: 40px
-  margin-left: 19px
-  border: solid 2px #d4daf5
-
-.separator-more
-  margin: 0 auto
 
 ::-webkit-scrollbar
   width: 6px
