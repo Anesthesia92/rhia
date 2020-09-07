@@ -249,6 +249,14 @@ body .header-menu__button {
   overflow-x: hidden;
   height: 612px;
 }
+.featured-videos__pics ::-webkit-scrollbar {
+  width: 6px;
+}
+.featured-videos__pics ::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-color: #bab8b8;
+  background-color: #bab8b8;
+}
 .featured-videos__pics-icon {
   display: flex;
   align-items: center;
@@ -529,14 +537,20 @@ input::placeholder {
   cursor: pointer;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
+A:link {
+  text-decoration: none;
 }
 
-::-webkit-scrollbar-thumb {
-  border-width: 1px 1px 1px 2px;
-  border-color: #bab8b8;
-  background-color: #bab8b8;
+A:visited {
+  text-decoration: none;
+}
+
+A:active {
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
