@@ -1,3 +1,23 @@
+.separator-large {
+  width: 80px;
+  border: solid 5px #3984f3;
+}
+
+.separator-middle {
+  border: solid 2px #3984f3;
+  width: 60px;
+}
+
+.separator-small {
+  width: 40px;
+  margin-left: 19px;
+  border: solid 2px #d4daf5;
+}
+
+.separator-more {
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: "nunito-sans-regular";
   src: url("../fonts/nunito-sans-regular.ttf");
