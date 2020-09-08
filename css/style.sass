@@ -90,6 +90,7 @@ body
     padding: 14px 59px
     font-size: 20px
     cursor: pointer
+    transition-duration: 0.4s
     &:hover
       font-weight: bold
       background-color: white
@@ -163,6 +164,7 @@ body
       display: inline-block
       margin-top: 40px
       cursor: pointer
+      transition-duration: 0.4s
       &:hover
         font-weight: bold
         background-color: white
@@ -172,6 +174,7 @@ body
     margin-left: 188px
     margin-top: 70px
     font-size: 33px
+    cursor: pointer
     &-right
       margin-left: 70px
       color: #d2d2d2
@@ -215,7 +218,6 @@ body
       border-width: 1px 1px 1px 2px
       border-color: $light
       background-color: $light
-
     &-icon
       display: flex
       align-items: center
@@ -224,6 +226,7 @@ body
       padding-top: 10px
       padding-bottom: 10px
       margin-right: 40px
+      cursor: pointer
       &:hover
         background: #f0f0f0
         width: 100%
@@ -271,6 +274,7 @@ body
     text-align: center
     font-size: 33px
     color: #a0a0a0
+    cursor: pointer
     &-left
       margin-right: 33px
     &-right
@@ -293,11 +297,12 @@ body
     justify-content: center
     align-items: center
     text-align: center
+    cursor: pointer
     &-man
       display: flex
       flex-direction: column
       align-items: center
-    &-Donquixote
+    &-donquixote
       font-family: nunito-sans-extrabold, sans-serif
       font-size: 24px
       text-align: center
@@ -351,6 +356,7 @@ body
       margin-right: 56px
       &__polygons
         color: white
+        cursor: pointer
         &-first, &-second
           position: absolute
           left: 290px
@@ -363,6 +369,7 @@ body
         left: 286px
         color: white
         font-size: 24px
+        cursor: pointer
     &-button
      background-color: $blue
      color: white
@@ -370,6 +377,7 @@ body
      padding: 16px 118px
      font-size: 23px
      cursor: pointer
+     transition-duration: 0.4s
      &:hover
       background-color: #d7f3ff
       color: $blue
@@ -390,6 +398,7 @@ body
      padding-left: 33px
      padding-right: 33px
      text-decoration: none
+     cursor: pointer
      &:hover
       color: #5ba4f5
       font-weight: bold
@@ -413,14 +422,14 @@ body
       display: flex
       justify-content: center
       align-items: center
-      padding-right: 23px
-      font-size: 16px
+      margin-right: 23px
       color: white
+      cursor: pointer
       &-all
-        width: 21px
+        width: 23px
         height: 15px
         &__f
-          width: 16px
+          width: 14px
 
 input
   text-rendering: auto
@@ -447,8 +456,6 @@ input::placeholder
   width: 24px
   overflow-y: scroll
   cursor: pointer
-
-
 
 A:link
   text-decoration: none

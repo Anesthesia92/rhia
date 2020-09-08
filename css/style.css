@@ -100,6 +100,7 @@ body .header-menu__button {
   padding: 14px 59px;
   font-size: 20px;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 .advertising__button:hover {
   font-weight: bold;
@@ -191,6 +192,7 @@ body .header-menu__button {
   display: inline-block;
   margin-top: 40px;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 .places__photos-description-button:hover {
   font-weight: bold;
@@ -202,6 +204,7 @@ body .header-menu__button {
   margin-left: 188px;
   margin-top: 70px;
   font-size: 33px;
+  cursor: pointer;
 }
 .places__arrows-right {
   margin-left: 70px;
@@ -265,6 +268,7 @@ body .header-menu__button {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-right: 40px;
+  cursor: pointer;
 }
 .featured-videos__pics-icon:hover {
   background: #f0f0f0;
@@ -322,6 +326,7 @@ body .header-menu__button {
   text-align: center;
   font-size: 33px;
   color: #a0a0a0;
+  cursor: pointer;
 }
 .travel-categories__arrows-left {
   margin-right: 33px;
@@ -350,13 +355,14 @@ body .header-menu__button {
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 .travellers-experiences__arrows-man {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.travellers-experiences__arrows-Donquixote {
+.travellers-experiences__arrows-donquixote {
   font-family: nunito-sans-extrabold, sans-serif;
   font-size: 24px;
   text-align: center;
@@ -420,6 +426,7 @@ body .header-menu__button {
 }
 .reservation__form-destinations__polygons, .reservation__form-package__polygons, .reservation__form-date__polygons {
   color: white;
+  cursor: pointer;
 }
 .reservation__form-destinations__polygons-first, .reservation__form-destinations__polygons-second, .reservation__form-package__polygons-first, .reservation__form-package__polygons-second, .reservation__form-date__polygons-first, .reservation__form-date__polygons-second {
   position: absolute;
@@ -434,6 +441,7 @@ body .header-menu__button {
   left: 286px;
   color: white;
   font-size: 24px;
+  cursor: pointer;
 }
 .reservation__form-button {
   background-color: #3984f3;
@@ -442,6 +450,7 @@ body .header-menu__button {
   padding: 16px 118px;
   font-size: 23px;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 .reservation__form-button:hover {
   background-color: #d7f3ff;
@@ -467,6 +476,7 @@ body .header-menu__button {
   padding-left: 33px;
   padding-right: 33px;
   text-decoration: none;
+  cursor: pointer;
 }
 .footer-menu__navigation ul a:hover {
   color: #5ba4f5;
@@ -495,16 +505,16 @@ body .header-menu__button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 23px;
-  font-size: 16px;
+  margin-right: 23px;
   color: white;
+  cursor: pointer;
 }
 .footer-menu__messengers-icons-all {
-  width: 21px;
+  width: 23px;
   height: 15px;
 }
 .footer-menu__messengers-icons-all__f {
-  width: 16px;
+  width: 14px;
 }
 
 input {
