@@ -289,10 +289,10 @@ body .header-menu__button {
   padding-bottom: 10px;
   margin-right: 40px;
   cursor: pointer;
+  width: 100%;
 }
 .featured-videos__pics-icon:hover {
   background: #f0f0f0;
-  width: 100%;
 }
 .featured-videos__pics-icon-video {
   height: 113px;
@@ -375,7 +375,6 @@ body .header-menu__button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  cursor: pointer;
 }
 .travellers-experiences__arrows-man {
   display: flex;
@@ -398,11 +397,13 @@ body .header-menu__button {
   margin-right: 144px;
   font-size: 33px;
   color: #dfdfdf;
+  cursor: pointer;
 }
 .travellers-experiences__arrows-right {
   margin-left: 144px;
   font-size: 33px;
   color: #a0a0a0;
+  cursor: pointer;
 }
 .travellers-experiences__separators {
   display: flex;
