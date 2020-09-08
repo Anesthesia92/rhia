@@ -520,22 +520,18 @@ body .header-menu__button {
   margin-top: 28px;
 }
 .footer-menu__messengers-icons {
-  background: url(../images/ellipse.png) no-repeat;
+  border-radius: 50%;
+  background: #3984f3;
   height: 50px;
   width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 23px;
-  color: white;
   cursor: pointer;
 }
 .footer-menu__messengers-icons-all {
-  width: 23px;
-  height: 15px;
-}
-.footer-menu__messengers-icons-all__f {
-  width: 14px;
+  color: white;
 }
 
 input {
