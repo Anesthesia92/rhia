@@ -20,3 +20,9 @@ const arr = [
     url: "https://www.youtube.com/embed/gotEdEs0FC0",
   },
 ];
+
+arr.forEach((element) => {
+  $(`.featured-videos__pics`).append(
+    `<p class='.featured-videos__pics-description'>${arr[i]}</p>`
+  );
+});
