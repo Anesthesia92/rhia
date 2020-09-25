@@ -1,4 +1,6 @@
-$(".item").on("mouseover", function() {
-    $(this).removeClass('far fa-star').addClass('fas fa-star');
-
+$(".item").on("mouseenter", function () {
+  $(this).addClass("fas");
+  $(".item").on("mouseout", function () {
+    $(this).removeClass("fas");
+  });
 });
