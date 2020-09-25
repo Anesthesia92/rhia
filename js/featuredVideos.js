@@ -47,7 +47,3 @@ $(".featured-videos__pics-icon").on(`click`, function () {
 });
 
 
-$(".item").on("click", function() {
-  $(this).removeClass('far fa-star').addClass('fas fa-star');
-
-});
