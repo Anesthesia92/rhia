@@ -1,19 +1,19 @@
 
 $(".places__photos-countries__all-stars__item").on("click", function () {
     $(this).attr('data-selected');
+})
 
-});
-
-$(".places__photos-countries__all-stars__item").on("mouseenter", function () {
+.on("mouseenter", function () {
     $(this).addClass("fas");
 
 }).on("mouseleave", function () {
-    if (typeof 'data-selected' !== 1 && hasClass !== true)
-    {
-    }
-    else  if (typeof 'data-selected' !== 0 && hasClass !== false){
-        $(this).removeClass("fas");
-    }
-    });
+    let hasClass = $('.places__photos-countries__all-stars').hasClass('fas');
+    const hasAttribute = parseInt($(this).attr('data-selected'));
+    if (typeof hasAttribute !== typeof undefined && hasAttribute !== false) {
+        $(this).removeClass('fas');
+    } else {
 
+    }
+
+});
 
