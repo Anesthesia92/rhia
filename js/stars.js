@@ -1,31 +1,27 @@
-//$(".places__photos-countries__all-stars__item")
- // .on("click", function () {
-  ///  const hasAttribute = parseInt($(this).attr("data-selected"));
-  //  if (hasAttribute) {
-  //    $(this).attr("data-selected", 0);
- //   } else {
-   //   $(this).attr("data-selected", 1);
-  //  }
- // })
- // .on("mouseenter", function () {
-  //  $(this).addClass("fas");
- // })
- // .on("mouseleave", function () {
-  //  const hasAttribute = parseInt($(this).attr("data-selected"));
 
-  //  if (!hasAttribute) {
-   //   $(this).removeClass("fas");
-  //  }
- // });
-
-$('.places__photos-countries__all-stars__item').hover(
-
-    function() {
-        $(this).prevAll().andSelf().addClass('fas');
-
-    },
-    function() {
-        $(this).prevAll().andSelf().removeClass('fas');
-        set_votes($(this).parent());
+let starsSum = $('.places__photos-countries__all-stars__item .fas').length;
+let Stars = function(e) {
+    $('.places__photos-countries__all-stars__item').removeClass('fas');
+    for (let i = 0; e + 1 > i; i++) {
+        $('.places__photos-countries__all-stars__item').eq(i).toggleClass('fas');
     }
-);
+
+};
+
+$('.places__photos-countries__all-stars__item').on("mouseenter", function() {
+    Stars($(this).index());
+})
+
+.on("click", function () {
+    Stars($(this).index());
+    starsSum = $('.places__photos-countries__all-stars__item .fas').length;
+
+})
+.on('mouseleave', function() {
+    Stars(+starsSum - 1);
+});
+
+
+
+
+
