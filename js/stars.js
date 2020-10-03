@@ -2,11 +2,17 @@ $(".places__photos-countries__all-stars__item")
   .on("mouseenter", function () {
     $(this).addClass("fas");
     let starIndex = $(this).index(".places__photos-countries__all-stars__item");
-    $(".places__photos-countries__all-stars")
-      .children(
-        ".places__photos-countries__all-stars__item:lt(" + starIndex + ")"
-      )
-      .addClass("fas");
+    $(".places__photos-countries__all-stars__item").each(function(i, item){
+     if (starIndex >= i) {
+
+       $(".places__photos-countries__all-stars")
+           .children(
+               ".places__photos-countries__all-stars__item:lt(" + starIndex + ")"
+           )
+           .addClass("fas");}
+      console.debug(i, item);
+    })
+
   })
 
   .on("mouseleave", function () {
