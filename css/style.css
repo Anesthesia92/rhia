@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .separator-large {
   width: 80px;
   border: solid 5px #3984f3;
@@ -16,6 +17,48 @@
 
 .separator-more {
   margin: 0 auto;
+}
+
+#button {
+  display: inline-block;
+  background-color: #3984f3;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+  z-index: 1000;
+  transition-duration: 0.4s;
+}
+
+#button::after {
+  content: "";
+  font-family: FontAwesome, sans-serif;
+  font-size: 2em;
+  line-height: 50px;
+  color: #96f0ff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 3px solid #3984f3;
+  color: #3984f3;
+  content: "";
+  font-family: FontAwesome, sans-serif;
+  font-size: 1em;
+}
+
+#button:active {
+  background-color: #ffffff;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 @font-face {

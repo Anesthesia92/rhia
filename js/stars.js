@@ -3,7 +3,6 @@ $(".places__photos-countries__all-stars__item")
     let starIndex = $(this).index(".places__photos-countries__all-stars__item");
     $(".places__photos-countries__all-stars__item").each(function (i, item) {
       if (starIndex >= i) {
-        console.log(item);
           $(item).addClass("fas");
       }
     });

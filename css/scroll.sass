@@ -1,0 +1,41 @@
+
+$color: #ffffff
+$light: #bab8b8
+$blue: #3984f3
+
+#button
+  display: inline-block
+  background-color: #3984f3
+  width: 50px
+  height: 50px
+  text-align: center
+  border-radius: 4px
+  position: fixed
+  bottom: 30px
+  right: 30px
+  visibility: hidden
+  z-index: 1000
+  transition-duration: 0.4s
+
+#button::after
+  content: "\f077"
+  font-family: FontAwesome, sans-serif
+  font-size: 2em
+  line-height: 50px
+  color: #96f0ff
+
+#button:hover
+  cursor: pointer
+  background-color: $color
+  border: 3px solid $blue
+  color: $blue
+  content: "\f077"
+  font-family: FontAwesome, sans-serif
+  font-size: 1em
+
+#button:active
+  background-color: #ffffff
+
+#button.show
+  opacity: 1
+  visibility: visible
